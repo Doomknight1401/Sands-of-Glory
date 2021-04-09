@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sss",
+        "s s"
+    ],
+    "key": {
+        "s": {
+            "item": "sandsofglory:bronze_ingot"
+        }
+    },
+    "result": {
+        "item": "sandsofglory:bronze_helmet",
+        "count": 1
+    }
+}

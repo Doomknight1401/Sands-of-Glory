@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sss",
+        "s s",
+        "s s"
+    ],
+    "key": {
+        "s": {
+            "item": "sandsofglory:bronze_ingot"
+        }
+    },
+    "result": {
+        "item": "sandsofglory:bronze_leggings",
+        "count": 1
+    }
+}

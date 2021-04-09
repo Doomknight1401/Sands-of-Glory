@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sss",
+        "sss",
+        "sss"
+    ],
+    "key": {
+        "s": {
+            "item": "sandsofglory:silver_ingot"
+        }
+    },
+    "result": {
+        "item": "sandsofglory:silver_block",
+        "count": 1
+    }
+}

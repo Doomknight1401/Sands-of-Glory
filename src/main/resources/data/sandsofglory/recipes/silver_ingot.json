@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "sandsofglory:silver_nugget"
+        }
+    },
+    "result": {
+        "item": "sandsofglory:silver_ingot",
+        "count": 1
+    }
+}

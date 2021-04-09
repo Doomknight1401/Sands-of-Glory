@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "minecraft:gold_nugget"
+    },
+    "result": "sandsofglory:stater",
+    "experience": 0.45,
+    "cookingtime": 120
+}

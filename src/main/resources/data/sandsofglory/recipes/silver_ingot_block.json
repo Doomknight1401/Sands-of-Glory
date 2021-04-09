@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sandsofglory:silver_block"
+        }
+    ],
+    "result": {
+        "item": "sandsofglory:silver_ingot",
+        "count": 9
+    }
+}

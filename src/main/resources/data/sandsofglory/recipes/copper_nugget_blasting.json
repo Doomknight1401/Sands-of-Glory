@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "sandsofglory:copper_scrap"
+    },
+    "result": "sandsofglory:copper_nugget",
+    "experience": 0.2,
+    "cookingtime": 100
+}

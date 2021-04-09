@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "sandsofglory:tin_scrap"
+    },
+    "result": "sandsofglory:tin_nugget",
+    "experience": 0.2,
+    "cookingtime": 100
+}

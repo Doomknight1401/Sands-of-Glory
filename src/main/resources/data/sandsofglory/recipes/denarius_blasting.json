@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "sandsofglory:silver_nugget"
+    },
+    "result": "sandsofglory:denarius",
+    "experience": 0.45,
+    "cookingtime": 120
+}

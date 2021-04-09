@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "sandsofglory",
+  "version": "${version}",
+
+  "name": "Sands of Glory",
+  "description": "This mod adds features for Rome and Egypt!",
+  "authors": [
+    "Doomknight14",
+    "x_Gamer_Lia_x"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC BY-NC-SA",
+  "icon": "assets/sandsofglory/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "doomknight.sands.of.glory.SandsofGlory"
+    ],
+    "client": [
+      "doomknight.sands.of.glory.SandsofGloryClient"
+    ]
+  },
+  "mixins": [
+    "sandsofglory.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

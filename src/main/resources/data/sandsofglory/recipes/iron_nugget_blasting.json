@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "sandsofglory:iron_scrap"
+    },
+    "result": "minecraft:iron_nugget",
+    "experience": 0.25,
+    "cookingtime": 100
+}

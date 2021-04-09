@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:gold_nugget"
+    },
+    "result": "sandsofglory:stater",
+    "experience": 0.4,
+    "cookingtime": 250
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "s s",
+        "sss",
+        "sss"
+    ],
+    "key": {
+        "s": {
+            "item": "sandsofglory:steel_ingot"
+        }
+    },
+    "result": {
+        "item": "sandsofglory:steel_chestplate",
+        "count": 1
+    }
+}

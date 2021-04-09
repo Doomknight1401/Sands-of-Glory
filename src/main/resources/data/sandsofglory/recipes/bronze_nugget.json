@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "sandsofglory:bronze_scrap"
+    },
+    "result": "sandsofglory:bronze_nugget",
+    "experience": 0.3,
+    "cookingtime": 200
+}
