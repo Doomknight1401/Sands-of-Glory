@@ -47,5 +47,13 @@
     "item.sandsofglory.steel_leggings": "Steel Leggings",
     "item.sandsofglory.steel_boots": "Steel Boots",
     "block.sandsofglory.blackberry_plant": "Blackberry Plant",
-    "item.sandsofglory.blackberry": "Blackberry"
+    "item.sandsofglory.blackberry": "Blackberry",
+    "block.sandsofglory.blueberry_plant": "Blueberry Plant",
+    "item.sandsofglory.blueberry": "Blueberry",
+    "block.sandsofglory.raspberry_plant": "Raspberry Plant",
+    "item.sandsofglory.raspberry": "Raspberry",
+    "block.sandsofglory.strawberry_plant": "Strawberry Plant",
+    "item.sandsofglory.strawberry": "Strawberry",
+    "block.sandsofglory.grape_plant": "Grape Plant",
+    "item.sandsofglory.grape": "Grape"
 }

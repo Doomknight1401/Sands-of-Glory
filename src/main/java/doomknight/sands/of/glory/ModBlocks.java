@@ -1,5 +1,9 @@
 package doomknight.sands.of.glory;
 import doomknight.sands.of.glory.foodcrops.BlackberryPlant;
+import doomknight.sands.of.glory.foodcrops.BlueberryPlant;
+import doomknight.sands.of.glory.foodcrops.GrapePlant;
+import doomknight.sands.of.glory.foodcrops.RaspberryPlant;
+import doomknight.sands.of.glory.foodcrops.StrawberryPlant;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -43,6 +47,10 @@ public class ModBlocks {
 
     // Crops
     public static final BlackberryPlant BLACKBERRY_PLANT = Registry.register(Registry.BLOCK, new Identifier(SandsofGlory.MOD_ID, "blackberry_plant"), new BlackberryPlant(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().strength(0.0F, 0.0F).sounds(BlockSoundGroup.CROP).nonOpaque()));
+    public static final BlueberryPlant BLUEBERRY_PLANT = Registry.register(Registry.BLOCK, new Identifier(SandsofGlory.MOD_ID, "blueberry_plant"), new BlueberryPlant(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().strength(0.0F, 0.0F).sounds(BlockSoundGroup.CROP).nonOpaque()));
+    public static final GrapePlant GRAPE_PLANT = Registry.register(Registry.BLOCK, new Identifier(SandsofGlory.MOD_ID, "grape_plant"), new GrapePlant(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().strength(0.0F, 0.0F).sounds(BlockSoundGroup.CROP).nonOpaque()));
+    public static final RaspberryPlant RASPBERRY_PLANT = Registry.register(Registry.BLOCK, new Identifier(SandsofGlory.MOD_ID, "raspberry_plant"), new RaspberryPlant(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().strength(0.0F, 0.0F).sounds(BlockSoundGroup.CROP).nonOpaque()));
+    public static final StrawberryPlant STRAWBERRY_PLANT = Registry.register(Registry.BLOCK, new Identifier(SandsofGlory.MOD_ID, "strawberry_plant"), new StrawberryPlant(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().strength(0.0F, 0.0F).sounds(BlockSoundGroup.CROP).nonOpaque()));
 
     // Silver for world generation
     private static ConfiguredFeature<?, ?> SILVER_ORE_OVERWORLD = Feature.ORE.configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, SILVER_ORE.getDefaultState(), 4)).decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 5, 80))).spreadHorizontally().repeat(14);

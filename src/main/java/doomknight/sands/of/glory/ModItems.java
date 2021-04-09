@@ -1,6 +1,10 @@
 package doomknight.sands.of.glory;
 
 import doomknight.sands.of.glory.foodcrops.Blackberry;
+import doomknight.sands.of.glory.foodcrops.Blueberry;
+import doomknight.sands.of.glory.foodcrops.Grape;
+import doomknight.sands.of.glory.foodcrops.Raspberry;
+import doomknight.sands.of.glory.foodcrops.Strawberry;
 import doomknight.sands.of.glory.toolbase.AxeBase;
 import doomknight.sands.of.glory.toolbase.HoeBase;
 import doomknight.sands.of.glory.toolbase.PickaxeBase;
@@ -44,6 +48,10 @@ public class ModItems {
     public static final Item IRON_SCRAP = new Item(new Item.Settings().group(SandsofGlory.SANDS_OF_GLORY_GROUP));
 
     public static final Blackberry BLACKBERRY = Registry.register(Registry.ITEM, new Identifier(SandsofGlory.MOD_ID, "blackberry"), new Blackberry(ModBlocks.BLACKBERRY_PLANT,(new Item.Settings().group(SandsofGlory.SANDS_OF_GLORY_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(1.5F).snack().build()))));
+    public static final Blueberry BLUEBERRY = Registry.register(Registry.ITEM, new Identifier(SandsofGlory.MOD_ID, "blueberry"), new Blueberry(ModBlocks.BLUEBERRY_PLANT,(new Item.Settings().group(SandsofGlory.SANDS_OF_GLORY_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(1.5F).snack().build()))));
+    public static final Grape GRAPE = Registry.register(Registry.ITEM, new Identifier(SandsofGlory.MOD_ID, "grape"), new Grape(ModBlocks.GRAPE_PLANT,(new Item.Settings().group(SandsofGlory.SANDS_OF_GLORY_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(1.5F).snack().build()))));
+    public static final Raspberry RASPBERRY = Registry.register(Registry.ITEM, new Identifier(SandsofGlory.MOD_ID, "raspberry"), new Raspberry(ModBlocks.RASPBERRY_PLANT,(new Item.Settings().group(SandsofGlory.SANDS_OF_GLORY_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(1.5F).snack().build()))));
+    public static final Strawberry STRAWBERRY = Registry.register(Registry.ITEM, new Identifier(SandsofGlory.MOD_ID, "strawberry"), new Strawberry(ModBlocks.STRAWBERRY_PLANT,(new Item.Settings().group(SandsofGlory.SANDS_OF_GLORY_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(1.5F).snack().build()))));
 
     public static void registerItems() {
 
