@@ -56,7 +56,7 @@ public class ModBlocks {
     private static ConfiguredFeature<?, ?> SILVER_ORE_OVERWORLD = Feature.ORE.configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, SILVER_ORE.getDefaultState(), 4)).decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 5, 80))).spreadHorizontally().repeat(14);
 
     // Marble for world generation
-    private static ConfiguredFeature<?, ?> MARBLE_OVERWORLD = Feature.ORE.configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, MARBLE.getDefaultState(), 60)).decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 5, 80))).spreadHorizontally().repeat(10);
+    private static ConfiguredFeature<?, ?> MARBLE_OVERWORLD = Feature.ORE.configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, MARBLE.getDefaultState(), 60)).decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 5, 80))).spreadHorizontally().repeat(2);
 
     // Copper for world generation
     private static ConfiguredFeature<?, ?> COPPER_ORE_OVERWORLD = Feature.ORE.configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, COPPER_ORE.getDefaultState(), 6)).decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 5, 80))).spreadHorizontally().repeat(15);
