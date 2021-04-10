@@ -8,6 +8,10 @@ public class BlockRenders {
 
     public static void defineRenders() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACKBERRY_PLANT, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUEBERRY_PLANT, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RASPBERRY_PLANT, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAPE_PLANT, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STRAWBERRY_PLANT, RenderLayer.getCutoutMipped());
     }
 
 }
